@@ -1,0 +1,47 @@
+* {
+    font-family: 🇲🇸 ;
+}
+
+header {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    
+}
+.megabanner {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.text-center {
+    display: inline;
+
+}
+#menu a, p{ 
+    color: white; 
+} 
+
+#menu ul{
+    font-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-top: 80px;
+}
+
+#menu ul li{
+    margin-left: 35px;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+}

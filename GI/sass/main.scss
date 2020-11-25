@@ -1,0 +1,53 @@
+@import "./resets";
+@import "./mixins";
+
+$primary-color: #AC8B42;
+$secundary-color: #fff;
+
+header li:hover {
+    border-bottom: red solid 2px;
+}
+    .logo {
+        height: 65px;
+    }
+
+    .btn-top {
+        background-color: black;
+        color: $secundary-color;
+        padding: 09px 14px;
+    }
+
+.map {
+    width: 100%;
+    height: 550px;
+}
+
+.fake {
+    height: 450px;
+    width: 36 0px;
+}
+
+.bloco {
+    @include bloco();
+}
+
+.main-content{
+    height: auto;
+    background-color: black;
+    color: $secundary-color;
+
+    .btn-sim {
+        margin: 15px;
+        padding: 15px 15px;
+        background-color: $primary-color;
+        color: $secundary-color;
+        padding: 09px 14px;
+    }
+}
+
+.card {
+    .card-img-top {
+        height: 270px;
+        width: 100%;
+    }
+}

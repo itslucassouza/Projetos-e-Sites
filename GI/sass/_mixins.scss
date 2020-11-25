@@ -1,0 +1,20 @@
+@mixin bloco {
+    text-align: center;
+    height: auto;
+    margin: 60px ;
+    p {
+        color: #AC8B42;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: black;
+        font-weight: 800;
+    }
+
+    h5 {
+        color: black;
+        font-size: 13px;
+    }
+}
