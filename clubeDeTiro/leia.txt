@@ -1,0 +1,19 @@
+Bom dia, segue algumas pequenas dias para um melhor desenvolvimento;
+
+1 - Use Boostrap 4; 
+2 - Tome cuidado com a responsividade (Mobile);
+3 - Não tenha pressa, Lembre-se de tomar café;
+4 - Caso queira usar o fontawesome.com fique a vontade;
+5 - Sinta-se a vontade em ver a documentação online das bibliotecas utilizadas;
+
+Fonte utilizada
+https://fonts.google.com/specimen/Lato?query=lato
+
+Paleta de cores
+#121630
+#232A58
+#010101
+#FD0000
+#575757
+#FAFAFA
+#FFFFFF

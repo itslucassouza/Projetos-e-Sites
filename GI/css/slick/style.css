@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(./Background.jpg);
+    border: 0;
+    padding: 0;
+}
+
+.banner-cel {
+    display: none;
+}
+
+.txt-banner {
+    height: 45px;
+    font-size: 2.8em;
+    text-align: right;
+    line-height: 40px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    word-spacing: 15px;
+    color: #565654;
+}
+
+.img-banner img{
+    width: 671px; 
+    height: 512px;
+}
+
+.img-banner2 img{
+    margin-top: 120px; 
+    height: 300px; 
+    width: 300px;
+}
+
+.main-txt {
+    background-color: #19BC53;
+    color: white;
+    font-size: 20px;
+    border-bottom: 08px solid #2E94AC;
+    border-left: 08px solid #2E94AC ; 
+    /* box-shadow: -05px 05px 10px 05px #2E94AC; */
+}
+
+.main-txt p{
+    font-size: 20px;
+    font-size: 🇲🇸 ;
+    color: white;
+    font-weight: 900;
+}
+
+.icones{
+    margin-top: 108x;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.icones li{
+    margin-top: 23px;
+    text-align: justify;
+}
+.icones li img{
+    margin-right: px;
+}
+
+.main-content {
+    height: 683px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /* background-image: url(./Background.jpg); */
+}
+
+
+.main-content li{
+    list-style: none;
+}
+
+.melhor-lugar {
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/Banner\ 4.png);
+    width: 100%;
+    height: 20%;
+}
+
+.melhor-lugar img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.melhor-lugar p {
+    font-size: 25px;
+    word-spacing: 10PX;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white; 
+    margin: 10px;
+}
+
+.form {
+    width: 400px;
+    margin: 30px;
+    height: 350px;
+    /* border: 2px solid #5c585875;
+    box-shadow: 10px #E8E8E8 ; */
+    box-shadow: -03px -03px 10px 10px #5c585875;
+    border-radius: 25px;
+}
+
+.form p{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5F5F5F;
+}
+
+.form input{
+    border: none;
+    box-shadow: -01px -02px 02px 04px #5c585875;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 18px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 22px;
+}
+
+.form button{
+    margin-top: 10px;
+    background: #FD0001;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 3em;
+    width: 150px;
+    box-shadow: -03px -03px 10px 10px #5c585875;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.icones-rdp {
+    display: flex;
+    width: 370px;
+    justify-content: center;
+    /* box-shadow: -03px -03px 10px 10px #5c585875; */
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.icones-rdp div img{
+    margin: 05px;
+    height: 50px;
+    width: 50px;
+}
+
+.icones-rdp img:hover{
+    opacity:1
+}
+
+
+@media (max-width: 640px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header .banner-desk {
+        display: none;
+    }
+    header {
+        background-image: none;
+    }
+
+    .banner-cel {
+        display: block;
+    }
+
+    .txt-banner p{
+        display: none;
+    }
+
+    .img-banner img{
+        display: none;
+    }
+
+    .img-banner2 img {
+        display: none;
+    }
+    
+    .main-txt {
+        text-align: center;
+    }
+
+    .txt-banner{
+        display: block;
+        position: absolute;
+    }
+
+    .main-content {
+        height: auto;
+    }
+
+   div .image-frame1 {
+       display: none;
+   }
+
+   .form {
+       width: 350px;
+   }
+   .icones {
+       height: auto;
+   }
+
+   .melhor-lugar {
+       width: 100%;
+   }
+   .melhor-lugar img {
+       height: 45px;
+       margin: 10px;
+   }
+   .melhor-lugar p{
+       font-size: 15px;
+   }
+
+   .mega-banner{
+       width: 100%;
+       margin: 0PX;
+      background-color: white;
+      height: 900px;
+   }
+
+   .img-banner img {
+       margin-top: 20px;
+       width: 100vw;
+       height: 100vh
+
+   }
+
+   .main-content {
+       width: 375px;
+   }
+
+   .icones-rdp{
+       width: 335px;
+   }
+
+   .icones-rdp div{
+       width: 10px;;
+   }
+}
+      

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+elemento {
+    --cor-primary: #121630;
+    --cor-secundary: #232A58;
+    --color-grey: #575757;
+  }
+
+
+
+/* Padrões */ 
+body, html, div, p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.logo {
+    height: 100%;
+    width: 130px;
+    position: absolute;
+    margin: -3px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+body h3 {
+    font-size: 35px;
+    font-weight: 800;
+}
+/* end padrões */ 
+
+
+/* header */
+header {
+    height: auto;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+  } 
+
+
+.nav-top {
+    background-color:#0A2348;
+    color: white;
+}
+       
+
+.nav-top a{
+    color: white;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+    
+}
+
+
+nav a {
+    font-size: 19px;
+}
+
+.nav-top {
+    height: 120px;
+}
+.nav-top ul{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.mega-banner img {
+    border-top: #EC2222 solid 10px;
+}
+
+/* end header */
+
+
+
+
+/* section clube-de-tiro */
+.clube-de-tiro {
+    height: auto;
+    color: white;
+    background-color: #121630;
+}
+.clube-de-tiro div {
+    margin-bottom: 30px;
+}
+
+.clube-de-tiro h3{
+    margin-top: 30px;
+}
+
+.btn-clube {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 160px;
+}
+
+/* end clube de tiro */
+
+
+/* section icons */
+.icons {
+    height: auto;
+}
+
+.icons div{
+    margin-top: 10px;
+    margin-bottom: 15px;;
+}
+
+.icons img {
+    height: 80px;
+    margin-bottom: 21px;
+}
+
+.icons-m {
+    border-right: 1px solid #ECECEC;
+}
+
+.btn-icons {
+    background-color: #121630;
+    color: white;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 120px;
+}
+/* end section icons */
+
+
+/* section curso de tiro */
+.curso-de-tiro {
+    height: auto;
+    color: white;
+    background-color: #121630;
+}
+  
+.ingressos , .ingressos-2 {
+    height: 82px;
+}
+
+.ingressos {
+    border: solid 3px #232A58;
+}
+.ingressos-2 {
+    background-color:  #232A58;
+    border: solid 3px #232A58;
+}
+
+.curso img{
+    margin-top: 25px;
+}
+
+.curso p{
+    font-size: 15px;
+}
+
+
+.btn-inscreva {
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 280px;
+}
+
+
+/* footer */
+
+.btn-footer {
+    align-items: inherit;
+    background-color: #5f5a5a;
+    color: white;
+    border-radius: 25px;
+    height: 2.5rem;
+    width: 150px;
+}
+
+@media (max-width: 640px) {
+
+    .logo {
+        position: relative;
+        height: 100%;
+        width: 108px;
+        margin-left: 35px;
+        margin-bottom: 25;
+    }
+
+
+
+}
