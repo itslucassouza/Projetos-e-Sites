@@ -8,7 +8,7 @@ $secundary-color: #fff;
 
 header {
     li:hover {
-    border-bottom: red solid 2px;
+    border-bottom: $primary-color solid 2px;
     }
 
     .logo {
@@ -19,6 +19,7 @@ header {
         background-color: $primary-color;
         color: $secundary-color;
         padding: 09px 14px;
+        border: 2px solid white;
     }
 }
 
@@ -46,20 +47,34 @@ header {
     background-repeat: no-repeat;
     color: $secundary-color;
 
-    p {
+   h1 {
         font-size: 19px;
-        font-weight: 600;
+        margin: 0;
+        color: black;
+        font-weight: 800;
     }
 
-    h5{
+    hr {
+        background-color: black;
+        height: 2px;
+        border-top-width: 1px;
+        }
+    
+    p {
+        text-align: right;
+        margin: 0;
+        margin-top: -10px;
+        padding: 0;
+        font-size: 22px;
+        color: black;
         font-weight: 900;
     }
 
     .btn-sim {
         width: inherit;
-        margin: 10px;
+        margin: 15px;
         padding: 15px 15px;
-        background-color: rgb(70, 51, 51);
+        background-color:black;
         color: white;
         font-weight: 800;
         padding: 09px 14px;
@@ -68,53 +83,69 @@ header {
 
 .card {
     box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
+    
     .card-img-top {
         height: 270px;
         width: 100%;
+    
     }
 }
 
 .instagram {
-    height: 300px;
+    height: 780px;
     color: white;
-    background-color: $primary-color;
+    background-image: url('../images/Background\ 1\ \(1\).png');
+    background-color: #10B0B0;
+    background-position: inherit;
+    background-repeat: no-repeat;
 
-        button{
-            background-color: white;
-            border: none;
-        a {
-            color: black;
-            text-decoration: none;
-         }
-    }          
+    h3 {
+        padding-top: 300px;
+    }
+
+    .icons img {
+        height: 70px;
+    }
 }
 
 /* footer */
 footer {
-    // background-color: black;
     background-color: #10B0B0;
+    height: 16em;
     color: white;
     // background-image: url(../fakes/patern.jpg);
     // background-position: center;
-
-
-    ul{
-        list-style: none;
-    }
-
     a {
         color: white;
     }
-    
+
+    p {
+        margin: 2px;
+        font-size: 20px;
+        font-family: 🇲🇸 sans-serif;
+    }
     .title-footer {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 900;
+    }
+    
+    .btn-footer {
+        
     }
     
 }
 
 
+.copy-right {
+    padding: 10px 0 0;
+    border-top: solid 1px black;
+    color: #7f7f80;
+    font-size: 13px;
+    a {
+         color: #10B0B0;
+     }
 
+}
 
 
 
