@@ -104,6 +104,14 @@ header .btn-top {
   color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-content {
+    background-image: url("../images/Mobile (1).png");
+    height: 380px;
+    background-position: center;
+  }
+}
+
 .main-content h1 {
   font-size: 19px;
   margin: 0;
@@ -166,17 +174,20 @@ header .btn-top {
 
 /* footer */
 footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #10B0B0;
-  height: 16em;
+  height: auto;
   color: white;
 }
 
 footer a {
   color: white;
+  font-size: 🇲🇸  sans-serif;
 }
 
 footer p {
-  margin: 2px;
+  margin: 12px;
   font-size: 20px;
   font-family: 🇲🇸 sans-serif;
 }
@@ -189,12 +200,14 @@ footer .title-footer {
 .copy-right {
   padding: 10px 0 0;
   border-top: solid 1px black;
-  color: #7f7f80;
+  background-color: black;
+  color: white;
   font-size: 13px;
+  padding-bottom: 10px;
 }
 
 .copy-right a {
-  color: #10B0B0;
+  color: yellow;
 }
 
 /* Pagina contato */
@@ -208,16 +221,28 @@ footer .title-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 200px;
-  background-image: url(../fakes/patern.jpg);
-  background-position: center;
+  height: 250px;
+  background-image: url(../fakes/banner-contact.png);
+  background-position: right;
 }
 
 .banner-contato h2 {
   color: white;
 }
 
-.form-contato {
-  border: 1px solid black;
+.form-contato .personal-info {
+  list-style: none;
+  text-align: left;
+}
+
+.form-contato .personal-info li {
+  margin-bottom: 10px;
+}
+
+.form-contato .btn-footer {
+  background-color: black;
+  color: white;
+  height: 3em;
+  width: 12em;
 }
 /*# sourceMappingURL=main.css.map */

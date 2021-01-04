@@ -6,15 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="./js/bootstrap.min.js">
   <link href="./sass/main.css" rel="stylesheet">
-  <link href="./css/slick/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link
     rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
 
   <!-- Bootstrap CSS -->
-  <link href="css/slick/slick-theme.css" rel="stylesheet">
+  <link href="./css/slick/slick/slick.css" rel="stylesheet">
+  <link href="./css/slick/slick/slick-theme.css" rel="stylesheet">
   <link href="./bootstrap-icons-1.0.0/">
-  <link href="./css/slick/jquery-1.11.0.min.js">
 
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -46,7 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Imóveis <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Imóveis </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Novidades <span class="sr-only">(current)</span></a>
@@ -69,7 +68,8 @@
 </header>
 
   <div class="map-banner">
-    <img class="map" src="./fakes/mapfake.jpg">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14757.627870053531!2d-46.94888847211463!3d-22.376010414546975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c85634938eb621%3A0x54d80b0501991ba8!2sVila%20Santa%20Julia%2C%20Mogi%20Gua%C3%A7u%20-%20SP%2C%2013844-006!5e0!3m2!1spt-BR!2sbr!4v1607543415029!5m2!1spt-BR!2sbr" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <!-- <img class="map" src="./fakes/mapfake.jpg"> -->
   </div>
 
 
@@ -77,10 +77,13 @@
     <h1>Imóveis em destaque</h1>
     <h5>Veja abaixo os imóveis mais quentes de São Paulo</h5>
   </div>
-
-  <div class="container text-center mb-4">
+<div class="container">
+  <div class="container text-center mega-banner mb-4">
+    <img class="fake img-fluid" src="fakes/021-IMG-017-RES-TORRE_PETALA-EXT-R00-B-551x720.jpg">
     <img class="fake" src="fakes/021-IMG-017-RES-TORRE_PETALA-EXT-R00-B-551x720.jpg">
   </div>
+</div>
+
 
   <div class="row main-content mb-5">
     <div class="container">
@@ -191,25 +194,25 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 text-left mt-2">
-          <h1 class="title-footer text-left mb-3">INSTITUCIONAL</h1>
+        <div class=" col-sm-12 col-md-4 text-center mt-2">
+          <h1 class="title-footer text-center mb-3">INSTITUCIONAL</h1>
           <p><a href="#">Imóveis</a></p>
           <p><a href="#">Financiamento</a></p>
-          <p><a href="#">contato</a></p><br>
+          <p><a href="#">Contato</a></p><br>
           <p>CRECI/SP n°35678-J</p>
         </div>
-
-        <div class="col-md-4 text-center mb-4 mt-2">
+  
+        <div class="col-sm-12 col-md-4 text-center mb-4 mt-2">
           <h1 class="title-footer">ENTRE EM CONTATO:</h1>
           <P>Telefone: </P>
           <p>(11) 5531-3040 </p>
-
-          <p>celular:</p>
+  
+          <p>Celular:</p>
           <p>(11)93235-9119</p>
           <p>(11)97070-6255</p>
         </div>
-
-        <div class="col-md-4 text-center mt-2">
+  
+        <div class="col-sm-12 col-md-4 text-center mt-2">
           <h1 class="title-footer">ENDEREÇO</h1>
           <p>Rua Julieta Pansani Cruz, 6</p>
           <p>Torre Mestra sala 401</p>
@@ -217,7 +220,6 @@
           <p>CEP 13844-006</p>
         </div>
       </div>
-
     </div>
   </footer>
 
@@ -228,10 +230,40 @@
     </div>
   </div>
 
-  <script src="./css/slick/jquery-1.11.0.min.js"></script>
-  <script src="./css/slick/jquery-migrate-1.2.1.min.js"></script>
-  <script>
-    $('.collapse').collapse()
-  </script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <script src="js/jquery.js"></script>
+  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+
+  <script> window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <!-- <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script> -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick/slick.js"></script>
+  <script src="js/nanogallery/jquery.nanogallery2.min.js"></script>
+  <!-- <script src="js/fancybox/jquery.fancybox.min.js"></script> -->
+  <script src="js/paroller/jquery.paroller.min.js"></script>
+
+  <!--Footer JS-->
+  <script >
+    function  submit_custom_form(){
+  alert('teste2')
+  document.getElementById('paymentForm').submit();
+  
+};
+</script>
+
+<script type="text/javascript" src="js/slick/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/slick/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.js"></script>
+
+<script>
+$('.mega-banner').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+</script>
 
 </body>
+</html>

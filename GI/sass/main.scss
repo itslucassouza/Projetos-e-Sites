@@ -46,19 +46,25 @@ header {
     background-position: inherit;
     background-repeat: no-repeat;
     color: $secundary-color;
+    @media only screen and (max-width: 600px) {
+        background-image: url('../images/Mobile\ \(1\).png');
+        height: 380px;
+        background-position: center;
+      }
 
-   h1 {
+    
+    h1 {
         font-size: 19px;
         margin: 0;
         color: black;
         font-weight: 800;
     }
-
+    
     hr {
         background-color: black;
         height: 2px;
         border-top-width: 1px;
-        }
+    }
     
     p {
         text-align: right;
@@ -69,7 +75,7 @@ header {
         color: black;
         font-weight: 900;
     }
-
+    
     .btn-sim {
         width: inherit;
         margin: 15px;
@@ -87,7 +93,7 @@ header {
     .card-img-top {
         height: 270px;
         width: 100%;
-    
+        
     }
 }
 
@@ -98,11 +104,11 @@ header {
     background-color: #10B0B0;
     background-position: inherit;
     background-repeat: no-repeat;
-
+    
     h3 {
         padding-top: 300px;
     }
-
+    
     .icons img {
         height: 70px;
     }
@@ -110,17 +116,20 @@ header {
 
 /* footer */
 footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #10B0B0;
-    height: 16em;
+    height: auto;
     color: white;
     // background-image: url(../fakes/patern.jpg);
     // background-position: center;
     a {
         color: white;
+        font-size: 🇲🇸  sans-serif;
     }
-
+    
     p {
-        margin: 2px;
+        margin: 12px;
         font-size: 20px;
         font-family: 🇲🇸 sans-serif;
     }
@@ -128,10 +137,8 @@ footer {
         font-size: 20px;
         font-weight: 900;
     }
+
     
-    .btn-footer {
-        
-    }
     
 }
 
@@ -139,12 +146,14 @@ footer {
 .copy-right {
     padding: 10px 0 0;
     border-top: solid 1px black;
-    color: #7f7f80;
+    background-color: black;
+    color: white;
     font-size: 13px;
+    padding-bottom: 10px;
     a {
-         color: #10B0B0;
-     }
-
+        color:yellow;
+    }
+    
 }
 
 
@@ -154,15 +163,29 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    background-image: url(../fakes/patern.jpg);
-    background-position: center;
-
+    height: 250px;
+    background-image: url(../fakes/banner-contact.png);
+    background-position: right;
+    
     h2{
         color: white;
     }
 }
 
 .form-contato {
-    border: 1px solid black;
+    
+    .personal-info{
+        list-style: none;
+        text-align: left;
+    }
+    
+    .personal-info li {
+        margin-bottom: 10px;
+    }
+                .btn-footer {
+                    background-color: black;
+                    color: white;
+                    height: 3em;
+                    width: 12em;
+                }
 }
